@@ -1,0 +1,15 @@
+{
+  "name": "samadhan2.0",
+  "version": "1.0.0",
+  "description": "This is the repository of Team Capstone's project for Samadhan 2.0 Hackathon 2025",
+  "main": "day04.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
