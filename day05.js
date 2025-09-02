@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 3000;
 
-app.use(cors()); //allows frontend to fetch
+app.use(cors()); 
 
 const students = [
     { id: 1, name: "Bhuvan", age: 21 },
