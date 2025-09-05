@@ -1,0 +1,32 @@
+.css */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.blue { background: linear-gradient(45deg, #2196F3, #21CBF3); }
+.orange { background: linear-gradient(45deg, #FF9800, #FFC107); }
+.red { background: linear-gradient(45deg, #FF5722, #F44336); }
